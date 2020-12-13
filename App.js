@@ -9,10 +9,11 @@
 import React from 'react';
 import { View } from 'react-native';
 import { SplashScreen } from './src/screens/SplashScreen';
+import { HomeScreen } from "./src/screens/HomeScreen";
 
 const App: () => React$Node = () => {
   return (
-    <SplashScreen />
+    <HomeScreen />
   );
 };
 
